@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.1" />
+  </ItemGroup>
+
+
+	<ItemGroup>
+		<ProjectReference Include="..\SITS.BNS.Common\SITS.BNS.Common.csproj" />
+		<ProjectReference Include="..\SITS.BNS.Entities\SITS.BNS.Entities.csproj" />
+		<ProjectReference Include="..\SITS.BNS.Infrastructure\SITS.BNS.Infrastructure.csproj" />
+	</ItemGroup>
+
+</Project>
